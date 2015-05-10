@@ -1,6 +1,7 @@
 package org.subtitle.exception;
 
 public class ConnectorException extends ClassNotFoundException{
+	
 	private String message;
 	
 	public ConnectorException(String _message){
